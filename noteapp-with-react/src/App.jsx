@@ -1,13 +1,17 @@
-import './App.css'
+import './App.css';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className='App'></div>
+    <div className='App'>
+      <Sidebar />
+      <Main />
+    </div>
     </>
   )
 }
 
-export default App
+export default App;
